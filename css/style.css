@@ -1,0 +1,304 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 2000px;
+}
+
+/***           Start Header          ***/
+
+.for-collapse-content {
+  flex-wrap: wrap-reverse;
+}
+
+.navbar h3 {
+  color: white;
+  font-size: 2rem;
+}
+.navbar img {
+  width: 35px;
+}
+.navbar h3 > span {
+  color: #cd2d46;
+}
+
+.Menu {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+[href] {
+  color: white;
+}
+[href]:hover {
+  color: #cd2d46;
+}
+.nav-link:focus, .nav-link:hover {
+  color: #cd2d46;
+}
+.Menu li::marker {
+  content: "|";
+  color: white;
+}
+.Menu li:first-child::marker {
+  content: none;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+.navbar-toggler {
+  padding: 0;
+}
+
+header {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+
+/***           End   Header          ***/
+
+#particles-js {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  content: "";
+  background-color: black;
+  transform-origin: left;
+  transform: skewY(-5deg);
+}
+.description-back {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  padding-top: 10%;
+}
+.description-back .row {
+  align-items: center;
+}
+.description-back h1 {
+  color: white;
+  font-size: 2.5rem;
+}
+.description-back h2 {
+  color: white;
+  font-size: 2.3rem;
+}
+.description-back h1 span {
+  color: #cd2d46;
+}
+
+.btn-danger {
+  color: white;
+  background-color: #cd2d46;
+  border-color: #cd2d46;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.btn-danger [href] {
+  text-decoration: none;
+}
+.btn-danger [href]:hover {
+ color: white;
+}
+
+.image-laptop {
+  z-index: 1;
+  direction: rtl;
+}
+.skills {
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  color: #424242;
+}
+.skillsF {
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: #424242;
+}
+.skillsF img {
+  max-width: 100px;
+}
+
+.progress {
+  margin-bottom: 7%;
+  height: 7%;
+}
+.progress-bar {
+  background-color: #cd2d46;
+  color: black;
+  font-weight: 600;
+}
+.skill1 h2 {
+  font-size: 1.5rem;
+  padding-bottom: 15px;
+  color: #9e9e9e;
+}
+.skill2 h2 {
+  font-size: 1.5rem;
+  padding-bottom: 15px;
+  color: #9e9e9e;
+}
+.competences {
+  background-image: url(../images/skills.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  width: 100%;
+  margin-bottom: 10%;
+}
+
+.before-expériences {
+  background: white;
+  position: relative;
+  width: 100%;
+  height: 15%;
+}
+
+.before-expériences::before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background-image: url(../images/experiences.jpg);
+  background-position: center;
+  background-size: cover;
+  transform: skewY(-2deg);
+}
+
+.expériences {
+  background-color: #cd2d46;
+  position: relative;
+  width: 100%;
+  transform: skewY(-2deg);
+  /*height: 22%;*/
+  height: 17%;
+  padding-top: 4%;
+}
+.exper-content {
+  transform: skewY(2deg);
+  /*padding-top: 8%;*/
+}
+
+.carousel-indicators [data-bs-target] {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 80px;
+  height: 80px;
+  border: 1px solid rgb(54, 53, 53);
+  box-shadow: 0 0 0 0.1rem black;
+}
+.carousel-indicators {
+  top: 140%;
+}
+
+.carousel-indicators button {
+  border-radius: 50%;
+  overflow: hidden;
+}
+.carousel-indicators img {
+  height: 100%;
+  width: 100%;
+}
+.group-text {
+  text-align: center;
+  color: white;
+}
+
+.lead {
+  color: black;
+  font-weight: 600;
+}
+.carousel-item span {
+  color: black;
+  font-weight: 600;
+}
+
+.skillsE {
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 0%;
+  padding-bottom: 5%;
+  color: #424242;
+}
+
+.form-content {
+  background-color: #eeeeee;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.form-right {
+  background-color: #bdbdbd;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 3%;
+}
+
+.form-right h2 {
+  font-size: 1.3rem;
+}
+.form-left h2 {
+  font-size: 1.7rem;
+  color: #bdbdbd;
+}
+.form-left {
+  background-color: #212121;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 3%;
+}
+.skillsC {
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: #424242;
+}
+.skillsC span {
+  color: #cd2d46;
+}
+.form-control {
+  border: none;
+  border-bottom: 1px solid black;
+}
+.form-control:focus {
+  box-shadow: 0 0 0 0.25rem #e67c8c;
+}
+.contact img {
+  max-width: 100%;
+}
+
+.contact {
+  background-image: url(../images/contact.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  width: 100%;
+  margin-bottom: 4%;
+}
+
+.footer {
+  background: black;
+  padding-top: 2%;
+  text-align: center;
+  padding-bottom: 1%;
+}
+
+.footer p {
+  font-size: 1rem;
+  color: white;
+}
+
+.footer span {
+  color: #cd2d46;
+}
