@@ -1,0 +1,188 @@
+/****  X-Large devices (large desktops, less than 1400px) ****/
+@media (max-width: 1399.98px) {
+}
+
+/****  Large devices (desktops, less than 1200px) ****/
+@media (max-width: 1199.98px) {
+  .expériences {
+    height: 16%;
+    padding-top: 5%;
+  }
+}
+
+/****  Medium devices (tablets, less than 992px) ****/
+@media (max-width: 991.98px) {
+  .size-btn-submit {
+    text-align: center;
+  }
+  .contact {
+    background-position: center;
+  }
+  .form-left h2 {
+    font-size: 1.5rem;
+  }
+  .form-right h2 {
+    font-size: 1.2rem;
+  }
+  .expériences {
+    height: 16%;
+    padding-top: 5%;
+  }
+
+  .competences {
+    background-image: none;
+  }
+  .desc-text {
+    text-align: center;
+  }
+  .description-back {
+    padding-top: 20%;
+  }
+  .description-back h1 {
+    font-size: 2.5rem;
+  }
+  .description-back h2 {
+    font-size: 2.5rem;
+  }
+  .bg-navbar {
+    width: 100%;
+  }
+}
+
+/****  Small devices (landscape phones, less than 768px) ****/
+@media (max-width: 767.98px) {
+  .size-btn-submit {
+    text-align: center;
+  }
+  .contact {
+    background-position: center;
+  }
+  .form-left h2 {
+    font-size: 1.1rem;
+  }
+  .form-right h2 {
+    font-size: 1rem;
+  }
+  .expériences {
+    height: 15%;
+    padding-top: 5%;
+  }
+
+  .before-expériences {
+    height: 10%;
+  }
+  .skill1 h2 {
+    font-size: 1.2rem;
+  }
+  .skill2 h2 {
+    font-size: 1.2rem;
+  }
+  .progress {
+    margin-bottom: 2%;
+    height: 8%;
+  }
+  .description-back {
+    padding-top: 30%;
+  }
+  .btn-contact-me {
+    text-align: center;
+  }
+  .description-back h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .description-back h2 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .Menu {
+    flex-direction: column;
+    text-align: center;
+  }
+  .Menu li::marker {
+    content: none;
+  }
+  .Menu li {
+    border-bottom: 1px solid white;
+    width: 90%;
+  }
+  .bg-navbar {
+    background: black;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 100%;
+  }
+}
+
+/****  X-Small devices (portrait phones, less than 576px) ****/
+@media (max-width: 575.98px) {
+  .size-btn-submit {
+    text-align: center;
+  }
+  .form-left h2 {
+    font-size: 1.1rem;
+  }
+  .form-right h2 {
+    font-size: 0.9rem;
+  }
+  .expériences {
+    height: 14%;
+    padding-top: 7%;
+  }
+
+  .before-expériences {
+    height: 8%;
+  }
+  .skill1 h2 {
+    font-size: 1.2rem;
+  }
+  .skill2 h2 {
+    font-size: 1.2rem;
+  }
+  .progress {
+    margin-bottom: 2%;
+    height: 8%;
+  }
+  .btn-contact-me {
+    text-align: center;
+  }
+  .description-back {
+    padding-top: 45%;
+  }
+  .description-back h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .description-back h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .Menu {
+    flex-direction: column;
+    text-align: center;
+  }
+  .Menu li::marker {
+    content: none;
+  }
+  .Menu li {
+    border-bottom: 1px solid white;
+    width: 90%;
+  }
+  .bg-navbar {
+    background: black;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 100%;
+  }
+  .nav-container {
+    width: 100%;
+  }
+  .navbar h3 {
+    color: white;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+  }
+  .navbar img {
+    width: 32px;
+  }
+}
