@@ -35,9 +35,9 @@
   .desc-text {
     text-align: center;
   }
-  .description-back {
+  /*.description-back {
     padding-top: 20%;
-  }
+  }*/
   .description-back h1 {
     font-size: 2.5rem;
   }
@@ -81,18 +81,18 @@
     margin-bottom: 2%;
     height: 8%;
   }
-  .description-back {
+  /*.description-back {
     padding-top: 30%;
-  }
+  }*/
   .btn-contact-me {
     text-align: center;
   }
   .description-back h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
   }
   .description-back h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
   }
   .Menu {
@@ -116,6 +116,29 @@
 
 /****  X-Small devices (portrait phones, less than 576px) ****/
 @media (max-width: 575.98px) {
+  .carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 70px;
+    height: 70px;
+    border: 1px solid rgb(54, 53, 53);
+    box-shadow: 0 0 0 0.1rem black;
+}
+  .skillsC h2 {
+    font-size: 1rem;
+  }
+  .skillsF img {
+    max-width: 70px;
+}
+  .skillsF h2 {
+    font-size: 1rem;
+  }
+  .skillsE h2 {
+    font-size: 1rem;
+  }
+  .skills h2 {
+    font-size: 1rem;
+  }
   .size-btn-submit {
     text-align: center;
   }
@@ -147,15 +170,19 @@
     text-align: center;
   }
   .description-back {
-    padding-top: 45%;
+    /*padding-top: 45%;*/
+    height: 0%;
   }
   .description-back h1 {
-    font-size: 2rem;
+    font-size: 1rem;
     text-align: center;
   }
   .description-back h2 {
-    font-size: 2rem;
+    font-size: 1rem;
     text-align: center;
+  }
+  .description-back button {
+    font-size: 0.5rem;
   }
   .Menu {
     flex-direction: column;
@@ -179,10 +206,10 @@
   }
   .navbar h3 {
     color: white;
-    font-size: 1.7rem;
+    font-size: 1.1rem;
     text-transform: uppercase;
   }
   .navbar img {
-    width: 32px;
+    width: 23px;
   }
 }
